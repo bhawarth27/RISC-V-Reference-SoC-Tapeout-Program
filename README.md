@@ -37,6 +37,17 @@ This flow describes the complete journey of chip design from **C modeling** to *
 📌 **In short:**  
 C Model (Specs) → RTL (Verilog) → Synthesis → SoC Integration → GDSII (Fabrication).
 
+## 🎯 **System and Virtual Machine Configuration**
+
+To ensure optimal performance, I configured a **Virtual Machine (VM)** with the following specifications:
+
+| **Specification** 💻    | **Details** 📋          |
+|-----------------------|-----------------------|
+| **Operating System** 🐧  | Ubuntu 24.04.3         |
+| **RAM** 💾               | 5GB                   |
+| **Storage** 💿           | 50GB HDD              |
+| **vCPUs** ⚡             | 4                     |
+
 ### **TOOL CHECK**
 
 #### <ins>**Yosys**</ins>
