@@ -32,7 +32,8 @@ The **design** is your Verilog code describing the intended logic functionality.
 A **testbench** is a simulation environment that applies various inputs to your design and checks if the outputs are correct.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/93927b96-df80-4da5-b801-284fc2cc6757" alt="Design & Testbench Overview" width="70%">
+  <img width="1637" height="772" alt="image" src="https://github.com/user-attachments/assets/5b78a8ab-59ca-421c-bf66-0d0c5f255646" />
+
 </div>
 
 ---
@@ -42,7 +43,8 @@ A **testbench** is a simulation environment that applies various inputs to your 
 **iverilog** is an open-source simulator for Verilog. Here’s the typical simulation flow:
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/3ca190fb-cfa4-4abb-b9e1-0151b3c4bdba" alt="iverilog Simulation Flow" width="70%">
+<img width="1812" height="715" alt="image" src="https://github.com/user-attachments/assets/e7a9ed8e-deed-4b9f-989d-f4fa20098e8e" />
+
 </div>
 
 - Both the design and testbench are provided as input to iverilog.
