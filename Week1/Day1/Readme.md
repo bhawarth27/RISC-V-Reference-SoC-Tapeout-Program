@@ -13,7 +13,8 @@ Today, you'll embark on your journey into digital design by learning Verilog, op
 4. [Verilog Code Analysis](#4-verilog-code-analysis)
 5. [Introduction to Yosys & Gate Libraries](#5-introduction-to-yosys--gate-libraries)
 6. [Synthesis Lab with Yosys](#6-synthesis-lab-with-yosys)
-7. [Summary](#7-summary)
+7. [Verifying Synthesis](#7-Verifying-Synthesis)
+8. [Summary](#8-summary)
 
 ---
 
@@ -127,6 +128,10 @@ endmodule
 
 **Yosys** is a powerful open-source synthesis tool for digital hardware. It takes your Verilog code and converts it into a gate-level netlist—a hardware blueprint.
 
+<div align="center">
+<img width="1218" height="647" alt="image" src="https://github.com/user-attachments/assets/f7bb91d4-8072-4e0a-916d-684cf78f4e06" />
+</div>
+
 #### Yosys Features
 
 - **Synthesis:** Converts HDL to a logic circuit
@@ -190,11 +195,18 @@ Let’s synthesize the `good_mux` design using Yosys!
 
 ---
 
-## 7. Summary
+## 7. Verifying Synthesis
+
+<div align="center">
+<img width="1201" height="618" alt="image" src="https://github.com/user-attachments/assets/8cf66503-9ac4-47d7-bec9-eb103b59429e" />
+</div>
+
+
+## 8. Summary
 
 - You learned about simulators, designs, and testbenches.
 - You ran your first Verilog simulation with iverilog and visualized waveforms.
-- You analyzed the 2-to-1 mux code.
+- You analyzed the 2-to-1 mux code and how will it be systhesized.
 - You explored Yosys and learned why gate libraries have various flavors.
 
 
