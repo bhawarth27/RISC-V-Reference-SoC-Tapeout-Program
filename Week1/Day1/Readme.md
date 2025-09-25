@@ -176,13 +176,17 @@ Let’s synthesize the `good_mux` design using Yosys!
 
 4. **Synthesize the design**
     ```shell
-    synth -top good_mux
+    synth -top module_name
     ```
 
 5. **Technology mapping**
     ```shell
     abc -liberty /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
     ```
+<div align="center">
+<img width="576" height="175" alt="image" src="https://github.com/user-attachments/assets/03c35cf8-8694-484a-81e2-5843ce40d316" />
+</div>
+    
 
 6. **Visualize the gate-level netlist**
     ```shell
@@ -190,7 +194,8 @@ Let’s synthesize the `good_mux` design using Yosys!
     ```
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4b3a9939-92d0-4efc-ad69-e96faf19e6c3" alt="Yosys Gate-level Schematic" width="70%">
+<img width="772" height="401" alt="image" src="https://github.com/user-attachments/assets/5297ad3f-00b6-438c-9eea-6f9be470547c" />
+
 </div>
 
 ---
