@@ -85,7 +85,8 @@ To open the sky130_fd_sc_hd__tt_025C_1v80.lib file:
 - Reporting can require additional configuration.
 
 **Example:**
-![Screenshot_2025-05-29_19-04-48](https://github.com/user-attachments/assets/91f0244a-2c41-42ea-be6f-468880c3af33)
+<img width="1222" height="585" alt="image" src="https://github.com/user-attachments/assets/499ed606-93e5-42c5-b00b-20e34c34570c" />
+
 
 
 ---
@@ -106,7 +107,8 @@ To open the sky130_fd_sc_hd__tt_025C_1v80.lib file:
 
 **Example:**
 
-![Screenshot_2025-05-29_19-20-47](https://github.com/user-attachments/assets/e1d94a5d-d3f7-41ee-8e69-ca0c05be81a3)
+<img width="1207" height="407" alt="image" src="https://github.com/user-attachments/assets/2f21d390-b865-40a0-8819-014898306bb7" />
+
 
 > **Important:** Hierarchical synthesis maintains sub-modules in the design, while flattening produces a netlist from the ground up.
 
