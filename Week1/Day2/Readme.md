@@ -206,7 +206,8 @@ endmodule
    ```shell
    gtkwave tb_dff_asyncres.vcd
    ```
-![Screenshot_2025-05-30_10-45-13](https://github.com/user-attachments/assets/1176581e-fd6c-4b71-8af5-5d7d5f6dbcda)
+<img width="3000" height="1474" alt="image" src="https://github.com/user-attachments/assets/f7da74be-077b-4c6d-b866-18b6f77bf64e" />
+
 
 
 ### Synthesis with Yosys
@@ -239,7 +240,7 @@ endmodule
    ```shell
    show
    ```
-![Screenshot_2025-05-30_11-03-00](https://github.com/user-attachments/assets/fa8337df-e0ec-4b01-9b18-5910768e4421)
+<img width="3000" height="1471" alt="image" src="https://github.com/user-attachments/assets/b546283e-c89b-420c-8a81-ee9fb65bcc03" />
 
 
 ---
