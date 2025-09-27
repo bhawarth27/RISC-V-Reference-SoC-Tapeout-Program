@@ -35,3 +35,13 @@ Welcome to Day 5 of the RTL workshop! Today, we will cover optimization in Veril
 <img width="1220" height="653" alt="image" src="https://github.com/user-attachments/assets/3b81411a-93cf-4ada-b127-e5271f54736c" />
 <img width="1215" height="762" alt="image" src="https://github.com/user-attachments/assets/beef8337-dfa5-44c4-8476-8cb133f12178" />
 
+# 📌 Task 3 – RIPPLE CARRY ADDER
+📷 Simulation:
+<img width="1519" height="615" alt="image" src="https://github.com/user-attachments/assets/fdaa7a03-1926-4f8c-8509-c320dc4ea161" />
+
+📷 Synthesized Netlist:
+<img width="1222" height="508" alt="image" src="https://github.com/user-attachments/assets/fc138385-b703-439b-8788-a06a044efb80" />
+
+
+
+
