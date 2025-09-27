@@ -196,6 +196,24 @@ endmodule
 ### Lab 6
 
 Verilog code:
+```verilog
+module sub_module(input a , input b , output y);
+ assign y = a & b;
+endmodule
+
+
+
+module multiple_module_opt2(input a , input b , input c , input d , output y);
+wire n1,n2,n3;
+
+sub_module U1 (.a(a) , .b(1'b0) , .y(n1));
+sub_module U2 (.a(b), .b(c) , .y(n2));
+sub_module U3 (.a(n2), .b(d) , .y(n3));
+sub_module U4 (.a(n3), .b(n1) , .y(y));
+
+
+endmodule
+```
 
 <img width="1205" height="737" alt="image" src="https://github.com/user-attachments/assets/d1c2e60d-87ae-43ed-884c-5b5054b36e3c" />
 <img width="1198" height="722" alt="image" src="https://github.com/user-attachments/assets/bb59edfa-530b-46ef-af69-e5832acdc80a" />
