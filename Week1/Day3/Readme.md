@@ -165,6 +165,7 @@ module opt_check4 (input a , input b , input c , output y);
 ---
 ### Lab 5
 
+Verilog code:
 ```verilog
 module sub_module1(input a , input b , output y);
  assign y = a & b;
@@ -189,6 +190,15 @@ assign y = c | (b & n1);
 endmodule
 ```
 <img width="787" height="435" alt="image" src="https://github.com/user-attachments/assets/e4652799-9fba-4ac5-bae1-2aab79ab66c9" />
+<img width="1215" height="747" alt="image" src="https://github.com/user-attachments/assets/23dffd2b-6a41-496a-b76e-2b2f0ed410e1" />
+<img width="1210" height="502" alt="image" src="https://github.com/user-attachments/assets/4a3aeb36-5bc8-47d3-a7cc-96a74b063102" />
+
+### Lab 6
+
+Verilog code:
+
+<img width="1205" height="737" alt="image" src="https://github.com/user-attachments/assets/d1c2e60d-87ae-43ed-884c-5b5054b36e3c" />
+<img width="1198" height="722" alt="image" src="https://github.com/user-attachments/assets/bb59edfa-530b-46ef-af69-e5832acdc80a" />
 
 
 ### Lab 7
