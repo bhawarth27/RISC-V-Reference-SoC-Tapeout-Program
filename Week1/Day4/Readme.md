@@ -133,7 +133,7 @@ end
 
 ---
 
-### Lab 5: GLS of Bad MUX
+### Lab 2: GLS of Bad MUX
 
 Perform GLS on the `bad_mux`.  
 Expect simulation mismatches or warnings due to above issues.
@@ -142,7 +142,7 @@ Expect simulation mismatches or warnings due to above issues.
 
 ---
 
-### Lab 6: Blocking Assignment Caveat
+### Lab 3: Blocking Assignment Caveat
 
 Verilog code:
 
@@ -172,7 +172,7 @@ end
 
 ---
 
-### Lab 7: Synthesis of the Blocking Caveat Module
+### Lab 4: Synthesis of the Blocking Caveat Module
 
 Synthesize the corrected version of the module and observe the results.
 
