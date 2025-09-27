@@ -100,44 +100,7 @@ Verilog offers two types of procedural assignments:
 
 ## 4. Labs
 
-### Lab 1: Ternary Operator MUX
-
-Verilog code for a simple 2:1 multiplexer using a ternary operator:
-
-```verilog
-module ternary_operator_mux (input i0, input i1, input sel, output y);
-  assign y = sel ? i1 : i0;
-endmodule
-```
-- **Function:** `y = i1` if `sel = 1`; else `y = i0`.
-
-![lab1](https://github.com/user-attachments/assets/3f5eb05a-1861-4bb8-940c-6ff9f2af87fb)
-
----
-
-### Lab 2: Synthesis Using Yosys
-
-Synthesize the above MUX using Yosys.  
-_Follow the standard Yosys synthesis flow._
-
-![lab2](https://github.com/user-attachments/assets/7a0cdc7c-cbbd-4943-bd3d-130a0d66b9b1)
-
----
-
-### Lab 3: Gate-Level Simulation (GLS) of MUX
-
-Run GLS for the synthesized MUX.  
-Use this command (adjust paths as needed):
-
-```shell
-iverilog /path/to/primitives.v /path/to/sky130_fd_sc_hd.v ternary_operator_mux.v testbench.v
-```
-
-![lab3](https://github.com/user-attachments/assets/9acf45b3-2e42-4ac1-88ae-b4a494cc8d87)
-
----
-
-### Lab 4: Bad MUX Example (Common Pitfalls)
+### Lab 1: Bad MUX Example (Common Pitfalls)
 
 Verilog code with intentional issues:
 
