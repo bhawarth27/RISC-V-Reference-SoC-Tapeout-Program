@@ -41,6 +41,7 @@ Welcome to Day 5 of the RTL workshop! Today, we will cover optimization in Veril
 
 📷 Synthesized Netlist:
 <img width="1222" height="508" alt="image" src="https://github.com/user-attachments/assets/fc138385-b703-439b-8788-a06a044efb80" />
+<img width="1220" height="595" alt="image" src="https://github.com/user-attachments/assets/9babc896-bb91-47c3-a98b-ee0f64097d2d" />
 
 
 
