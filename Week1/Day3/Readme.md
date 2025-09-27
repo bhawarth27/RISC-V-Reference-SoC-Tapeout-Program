@@ -224,23 +224,13 @@ endmodule
 Verilog code:
 
 ```verilog
-module dff_const1(input clk, input reset, output reg q);
-always @(posedge clk, posedge reset)
-begin
-	if(reset)
-		q <= 1'b0;
-	else
-		q <= 1'b1;
-end
-endmodule
+
 ```
 
 **Functionality:**
-- D flip-flop with:
-  - Asynchronous reset to 0
-  - Loads constant `1` when not in reset
+- D flip-flops always sets outputs `q` to `1` (regardless of reset or clock). There for No Flop is infered in the synthesis.
 
-![Lab 5 Output](https://github.com/user-attachments/assets/a42fac06-a092-4efc-be39-33b263caaaa1)
+<img width="1210" height="768" alt="image" src="https://github.com/user-attachments/assets/f6d5d6da-a591-434a-9fde-48fcc388f020" />
 
 ---
 
@@ -249,21 +239,11 @@ endmodule
 Verilog code:
 
 ```verilog
-module dff_const2(input clk, input reset, output reg q);
-always @(posedge clk, posedge reset)
-begin
-	if(reset)
-		q <= 1'b1;
-	else
-		q <= 1'b1;
-end
-endmodule
+
 ```
 
-**Functionality:**
-- D flip-flop always sets output `q` to `1` (regardless of reset or clock).
+<img width="1219" height="763" alt="image" src="https://github.com/user-attachments/assets/e051fa38-f1c0-477c-97a3-f2e2d85ee724" />
 
-![Lab 6 Output](https://github.com/user-attachments/assets/ae45f7db-0a7f-4256-b43b-01cc4a1588f7)
 
 ---
 
