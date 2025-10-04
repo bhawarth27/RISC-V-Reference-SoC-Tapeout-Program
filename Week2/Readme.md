@@ -237,10 +237,10 @@ gtkwave output/pre_synth_sim/pre_synth_sim.vcd
 
 ### 🔍 Signals to Observe
 
-* ⏱️ **CLK** → Input clock (from PLL)
-* 🔄 **reset** → Reset signal
-* 🎚 **OUT (DAC)** → Output from DAC (appears digital in sim)
-* 🔢 **RV_TO_DAC[9:0]** → 10-bit RVMYTH output → DAC input
+*  **CLK** → Input clock (from PLL)
+*  **reset** → Reset signal
+*  **OUT (DAC)** → Output from DAC (appears digital in sim)
+*  **RV_TO_DAC[9:0]** → 10-bit RVMYTH output → DAC input
 
 ---
 ### 🧠 The Instruction Program Driving BabySoC  
@@ -273,7 +273,7 @@ gtkwave output/pre_synth_sim/pre_synth_sim.vcd
 
 #### For the peak **r17 = 946**:
 $$
-V_{OUT} = \frac{946}{1023} \times 1.0 = 0.92502\ \text{V}
+V_{OUT} = \frac{946}{1023} \times 1.0 = 0.92473\ \text{V}
 $$
 
 #### 📊 Example Output Values (VREF = 1.0 V)
